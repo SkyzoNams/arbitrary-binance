@@ -1,0 +1,24 @@
+{
+    "demo_mode": true,
+    "max_amount": 0.0024,
+    "exchange_fee_percent": 0.1,
+    "min_profit_percent": 2.0,
+    "blacklist": ["EUR", "SOL", "BETH", "JPY"],
+    "starting_symbol": ["BTC", "ETH", "BNB", "BUSD"],
+    "starting_symbol_amount": {
+        "BTC": 0.0021,
+        "ETH": 0.032,
+        "BNB": 0.26,
+        "BUSD": 115
+    },
+    "order_timeout_second": 1,
+    "binance_api": {
+        "key": "xxxxx",
+        "secret": "xxx"
+    },
+    "binance_test_api": {
+        "key": "xxxxx",
+        "secret": "xxxxx",
+        "api_url": "https://testnet.binance.vision/api"
+    }
+}
